@@ -23,6 +23,7 @@ public class HomePageStepDefinitions {
             HomePage.getInstance().getSubmit().click();
         } catch (Exception e) {
              LOGGER.error(e);
+            System.out.println(e.getMessage());
             commonUtils.getInstance().takeScreenshot();
         }
     }
