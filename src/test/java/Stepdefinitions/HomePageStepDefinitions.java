@@ -30,17 +30,17 @@ public class HomePageStepDefinitions {
 
     @When("I click on best sellers")
     public void i_click_on_best_sellers() {
-        System.out.println("1");
+        System.out.println("2");
     }
 
 
     @When("I verify the text hot new release")
     public void i_verify_the_text_hot_new_release() {
-        System.out.println("2");
+        System.out.println("3");
     }
     @When("close the browser")
     public void close_the_browser() {
-        System.out.println("3");
+        System.out.println("4");
     }
 
 
